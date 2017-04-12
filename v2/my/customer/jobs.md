@@ -9,7 +9,7 @@ Manage a customer's jobs
 
 ### Request url
 `POST`
-`https://go-fetch.com.au/api/v1/my/customer/jobs.json`
+`http://test.go-fetch.com.au/api/v1/my/customer/jobs.json`
 
 
 ### Headers
