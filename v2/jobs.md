@@ -11,7 +11,7 @@ Calculates the job's price.
 
 `GET`
 
-https://go-fetch.com.au/api/v2/jobs/calculate.json?distance_meters=802&item_weight=12&lat=-37.8278185&lon=144.9666907
+http://test.go-fetch.com.au/api/v2/jobs/calculate.json?distance_meters=802&item_weight=12&lat=-37.8278185&lon=144.9666907
 
 ### Query Parameters
 
