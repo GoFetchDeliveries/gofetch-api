@@ -64,7 +64,11 @@ GoFetch API returns the following status codes:
 API requests to production server are sent to
 
 ```
-https://go-fetch.com.au/public_api/v1/
+https://go-fetch.com.au/api/v1
+```
+
+```
+https://go-fetch.com.au/api/v2
 ```
 
 1. Create a live GoFetch user account with the [production web app]
