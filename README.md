@@ -4,6 +4,8 @@ Welcome to GoFetch API. Anyone with a GoFetch user account can access GoFetch AP
 
 ## API endpoints
 
+* [Sessions](sessions.md)
+* [Hello World](hello_world.md)
 * [Sign In](v1/users.md)
 * [Calculate Job Price](v2/jobs.md)
 * [Create a Job](v2/my/customer/jobs.md)
