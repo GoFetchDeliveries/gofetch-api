@@ -21,11 +21,11 @@ A primary parameter used to calculate the delivery price.
 
 ##### lat
 
-Latitude of the pickup address.
+Latitude of the pickup address. Used as a backup in case suburb_name and postcode are not provided.
 
 ##### lon
 
-Longitude of the pickup address.
+Longitude of the pickup address. Used as a backup in case suburb_name and postcode are not provided.
 
 ##### suburb_name
 
