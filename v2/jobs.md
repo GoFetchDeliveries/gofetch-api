@@ -11,7 +11,7 @@ Calculates the job's price.
 
 `GET`
 
-https://go-fetch.com.au/api/v2/jobs/calculate.json?distance_meters=802&item_type_id=6c990db6-a3d0-469f-b68e-a2086d0b9194&lat=-37.8278185&lon=144.9666907
+https://go-fetch.com.au/api/v2/jobs/calculate.json?distance_meters=802&item_weight=12&lat=-37.8278185&lon=144.9666907
 
 ### Query Parameters
 
@@ -35,9 +35,13 @@ Suburb name of the pickup address.
 
 Suburb postcode of the pickup address.
 
+##### item_weight
+
+The weight of the item that needs to be delivered. Measured in kg.
+
 ##### item_type_id
 
-The type of the item that needs to be delivered.
+The type of the item that needs to be delivered. This is an alternative to the item_weight parameter in case you definitely know the weight of the item.
 
 ### Response
 
