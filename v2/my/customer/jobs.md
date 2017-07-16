@@ -24,6 +24,8 @@ TOKEN is retrieved from the [User sign In](../../../v1/users/sign_in.md) endpoin
 
 ### Request body
 
+NOTE - In dropoff_attributes / pickup_attributes, you can either supply contact_id, if you know the customer's id, or "contact_attributes": { "name": "...", "phone": "..." }, if this is a new customer contact.
+
 ```JSON
 {
   "job": {
