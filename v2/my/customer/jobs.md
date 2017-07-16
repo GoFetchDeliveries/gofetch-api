@@ -45,7 +45,10 @@ TOKEN is retrieved from the [User sign In](../../../v1/users/sign_in.md) endpoin
       "address": "520 Bourke St, Melbourne VIC 3004, Australia",
       "suburb_name": "Melbourne",
       "postcode": "3004",
-      "contact_id": "81c40ba2-5fca-4672-8dfe-0e1b796e56b8"
+      "contact_attributes": {
+      	"name":"Newest customer",
+      	"phone": "0412333444"
+      }
     },
     "notes": "",
     "credit_card_id": "3811a73a-21bd-4eb9-af41-a224e0bbe6c7",
